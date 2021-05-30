@@ -1,0 +1,16 @@
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\Linq.exe
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\Linq.deps.json
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\Linq.runtimeconfig.json
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\Linq.runtimeconfig.dev.json
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\Linq.dll
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\ref\Linq.dll
+C:\Users\Artem\source\repos\Linq\Linq\bin\Debug\net5.0\Linq.pdb
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.csprojAssemblyReference.cache
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.AssemblyInfo.cs
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.dll
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\ref\Linq.dll
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.pdb
+C:\Users\Artem\source\repos\Linq\Linq\obj\Debug\net5.0\Linq.genruntimeconfig.cache
