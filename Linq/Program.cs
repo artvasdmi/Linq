@@ -27,20 +27,31 @@ namespace Linq
     }
     class Program
     {   
-        static void GetCar(List<Car> myCars)
+        static void GetCar(ArrayList myCars)
         {
-            var hereCar = from c in myCars
-                          where c.Count > 12000
+            var myCarsEnum = myCars.OfType<Car>();
+            var hereCar = from c in myCarsEnum
+                          where c.Count > 12000 && c.Color == "Green"
                           select c;
             foreach (var item in hereCar)
             {
                 Console.WriteLine("Here: {0} {1}",item.Make, item.Name);
             }
         }
+        public static void LinqArray()
+        {
+            ArrayList arrayList = new ArrayList();
+            arrayList.AddRange(new object[] { 10, true, 'h', "string", 55, "test" });
+            var newArrayList = arrayList.OfType<int>();
+            foreach (var item in newArrayList)
+            {
+                Console.WriteLine("integer: {0}",item);
+            }
+        }
 
         static void Main(string[] args)
         {
-            List<Car> cars = new List<Car>()
+            ArrayList cars = new ArrayList()
             {
                 new Car{Name = "Ceed", Color = "Red", Count = 10000, Make = "Kia"},
                 new Car{Name = "LC", Color = "Black", Count = 25000, Make = "Toyota"},
@@ -49,7 +60,7 @@ namespace Linq
                 new Car{Name = "Polo", Color = "White", Count = 11000, Make = "VW"}
             };
 
-            GetCar(cars);
+            LinqArray();
         }
     }
 }
