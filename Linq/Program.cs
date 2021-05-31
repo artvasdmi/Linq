@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 
+
 namespace Linq
 {
     
-    public class Car
+    public class Car : IDisposable
     {
         public string Name { get; set; }
         public string Color { get; set; }
         public int Count { get; set; }
-        public string Make { get; set; }
+        public string Make { get; set; }        
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
     class ProductInfo
     {
@@ -102,9 +108,20 @@ namespace Linq
                                 Description = "Everyone loves pizza!",
                                 NumberInStock = 73}
             };
-            Array result = ReturnArray(itemsInStock);
-            TakeEveryThing(itemsInStock);
-            LinqQuery();
+            try
+            {
+                Array result = ReturnArray(itemsInStock);
+                TakeEveryThing(itemsInStock);
+                LinqQuery();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
+            
+            Console.WriteLine(GC.GetTotalMemory(false));
         }
     }
 }
